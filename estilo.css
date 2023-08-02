@@ -1,0 +1,89 @@
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+html {
+    scroll-behavior: smooth;
+--preto:#252323;
+--laranja: #bc5f04;
+--verde: #abc4ab;
+--branco: #e3e3e3;
+font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+
+
+}
+
+
+body {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background: var(--preto);
+color: var(--branco);
+}
+h1 {
+    color:var(--laranja);
+}
+
+
+
+
+#Sobre {
+    
+ display: flex; 
+ flex-direction: column;
+ gap: 32px;   
+
+
+}
+
+
+#Sobre h1, #Sobre h2 {
+    text-align: center;
+}
+section {
+    width: 800px;
+    max-width: 100%; 
+padding: 32px;
+}
+
+
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+
+
+
+
+
+
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+}
+header p {
+    color: green;
+}
+
+footer p a {
+    color: yellow;
+}
